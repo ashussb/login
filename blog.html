@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User - Login and Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h2>Shashastra Seema Bal</h2>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="#">FRONTIER</a>
+      <a href="#">CONTACT</a>
+      <a href="#">ABOUT</a>
+    </nav>
+    <div class='sign-in-up'>
+      <button type='button' onclick="popup('login-popup')">LOGIN</button>
+      <button type='button' onclick="popup('register-popup')">REGISTER</button>
+    </div>
+  </header>
+
+  <div class="popup-container" id="login-popup">
+    <div class="popup">
+      <form method="POST" action="login_register.php">
+        <h2>
+          <span>USER LOGIN</span>
+          <button type="reset" onclick="popup('login-popup')">X</button>
+        </h2>
+        <input type="text" placeholder="E-mail or Username" name="email_username">
+        <input type="password" placeholder="Password" name="password">
+        <button type="submit" class="login-btn" name="login">LOGIN</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup-container" id="register-popup">
+    <div class="register popup">
+      <form method="POST" action="login_register.php">
+        <h2>
+          <span>USER REGISTER</span>
+          <button type="reset" onclick="popup('register-popup')">X</button>
+        </h2>
+        <input type="text" placeholder="Full Name" name="fullname">
+        <input type="text" placeholder="Username" name="username">
+        <input type="email" placeholder="E-mail" name="email">
+        <input type="password" placeholder="Password" name="password">
+        <button type="submit" class="register-btn" name="register">REGISTER</button>
+      </form>
+    </div>
+  </div>
+<div class="mrq">
+  <marquee  behavior="scroll" direction="left" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">कृपया प्रतीछा करे जब तक वेबसाइट अपडेट हो रही है </marquee>
+</div>
+ <div class="main">
+    <h3>Shashastra Seema Bal<br> <span>(Frontier Page)</span> </h3>
+ </div>
+ <div class="cont">
+     <div class="cont1">
+        <img src="img/patana.png" alt="img"><div class="text1">Frontier Patna</div>
+     </div>
+     <div class="cont2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quidem ratione, natus tenetur sapiente blanditiis repudiandae tempora perspiciatis laboriosam voluptates debitis sit mollitia quod quam, nostrum a dolor eligendi beatae atque numquam exercitationem at? Magni porro nihil natus voluptates nesciunt deleniti quae sed quisquam soluta, corporis excepturi vero quibusdam suscipit cum maiores. Fugiat eius voluptatum dicta, beatae laudantium atque, repellat similique exercitationem minus obcaecati rerum voluptatibus. Perferendis expedita obcaecati quae? Tempore sapiente voluptatibus in, nam explicabo a rerum. Minus similique alias dolorem ullam ab vitae qui reprehenderit voluptatibus harum, suscipit nulla. Perferendis sapiente laborum eius earum consequatur. Autem ab voluptates ullam eligendi beatae doloribus ipsum praesentium. Impedit, beatae! Cum molestias animi eos asperiores repellendus praesentium sunt. Minima, est voluptatibus facilis molestias tempore repellendus labore iure quaerat doloribus ratione laudantium incidunt ipsam soluta ut. Consequatur at, deleniti quos tenetur adipisci non voluptate et reiciendis eaque esse! Modi ad repudiandae molestiae consequatur reiciendis consequuntur, veritatis rem atque quaerat voluptatem amet id, nostrum suscipit aspernatur ea, nihil non quidem. Deserunt natus consequuntur cumque doloribus aut quibusdam exercitationem distinctio animi, nulla voluptates iure soluta corrupti pariatur laboriosam vero similique illo, aspernatur magnam alias culpa. Aperiam nisi, sit saepe repellendus, autem impedit molestiae repudiandae optio et dolor omnis amet id ad similique nobis dolores iste voluptate consequatur! Laboriosam rem vitae, cumque reiciendis repudiandae dolores quasi magni fuga ipsam voluptates ut minima nemo, deserunt maxime repellat distinctio necessitatibus soluta illo omnis.
+     </div>
+ </div>
+ <div class="cont">
+    <div class="cont1">
+       <img src="img/Siliguri.png" alt="img"><div class="text2">Frontier Siliguri</div>
+    </div>
+    <div class="cont2">
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quidem ratione, natus tenetur sapiente blanditiis repudiandae tempora perspiciatis laboriosam voluptates debitis sit mollitia quod quam, nostrum a dolor eligendi beatae atque numquam exercitationem at? Magni porro nihil natus voluptates nesciunt deleniti quae sed quisquam soluta, corporis excepturi vero quibusdam suscipit cum maiores. Fugiat eius voluptatum dicta, beatae laudantium atque, repellat similique exercitationem minus obcaecati rerum voluptatibus. Perferendis expedita obcaecati quae? Tempore sapiente voluptatibus in, nam explicabo a rerum. Minus similique alias dolorem ullam ab vitae qui reprehenderit voluptatibus harum, suscipit nulla. Perferendis sapiente laborum eius earum consequatur. Autem ab voluptates ullam eligendi beatae doloribus ipsum praesentium. Impedit, beatae! Cum molestias animi eos asperiores repellendus praesentium sunt. Minima, est voluptatibus facilis molestias tempore repellendus labore iure quaerat doloribus ratione laudantium incidunt ipsam soluta ut. Consequatur at, deleniti quos tenetur adipisci non voluptate et reiciendis eaque esse! Modi ad repudiandae molestiae consequatur reiciendis consequuntur, veritatis rem atque quaerat voluptatem amet id, nostrum suscipit aspernatur ea, nihil non quidem. Deserunt natus consequuntur cumque doloribus aut quibusdam exercitationem distinctio animi, nulla voluptates iure soluta corrupti pariatur laboriosam vero similique illo, aspernatur magnam alias culpa. Aperiam nisi, sit saepe repellendus, autem impedit molestiae repudiandae optio et dolor omnis amet id ad similique nobis dolores iste voluptate consequatur! Laboriosam rem vitae, cumque reiciendis repudiandae dolores quasi magni fuga ipsam voluptates ut minima nemo, deserunt maxime repellat distinctio necessitatibus soluta illo omnis.
+    </div>
+</div>
+  <script>
+    function popup(popup_name)
+    {
+      get_popup=document.getElementById(popup_name);
+      if(get_popup.style.display=="flex")
+      {
+        get_popup.style.display="none";
+      }
+      else
+      {
+        get_popup.style.display="flex";
+      }
+    }
+  </script>
+
+</body>
+</html>
